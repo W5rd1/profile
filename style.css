@@ -1,0 +1,179 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+  }
+body {
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  background-color: rgba(180,180,180,1);
+  font-family: 'Kodchasan', sans-serif;
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+}
+ul {
+  list-style-type: none;
+}
+.container {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.card {
+  background-color: rgba(255,255,255,0.8);
+  width: 750px;
+  margin: 15px auto;
+  border-radius: 5px;
+  padding: 10px ;
+  text-align: center;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.2)
+  border: 2px solid rgba(0,0,0,1);
+}
+h1 {
+  font-family: 'Rubik', sans-serif;
+  color:rgba(60,60,60,1);
+}
+.list img {
+  width: 250px;
+  height: 200px;
+}
+.profile {
+  font-size: 20px;
+  position: relative;
+}
+.profile img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 2px 1px 1px rgba(0,0,0,0.3)
+}
+.links {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.list p {
+  font-size: 14px;
+}
+.list h3 {
+  font-family: 'Rubik', sans-serif;
+}
+
+.links li {
+  display: inline-block;
+}
+.links a {
+  font-size: 30px;
+  text-decoration: none;
+  color: rgba(0,0,0,1);
+  padding-left: 5px;
+  padding-right: 15px;
+}
+a {
+  text-decoration: none;
+}
+.fa-facebook-f:hover {
+  color: rgb(59, 89, 152);
+}
+.fa-twitter:hover {
+  color: rgb(29, 202, 255);
+}
+.fa-instagram:hover {
+  color: rgb(138, 58, 185);
+}
+.projects {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 100px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: rgba(255,255,255,0.7); /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 100px;
+    margin: 10px auto;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    border: 1px 1px rgba(20,20,20,0.1)
+}
+.projects img {
+  height: 70px;
+  width: 80%;
+  padding-bottom: 80px;
+}
+
+.projects:hover {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 150px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: rgba(255,255,255,0.7); /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 50px;
+  margin: 10px auto;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+.red_button {
+  width: 150px;
+  height: 40px;
+  background-color: red;
+  padding: 5px;
+}
+.red_button p {
+  margin: 10 0;
+  font-size: 20px;
+}
+.red_button a {
+  color: white;
+}
+.red_button a:hover {
+  color: rgba(200,200,200,1);
+}
+.container2 {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.container2 {
+  margin: 0 auto;
+  align-items: inline-block;
+  white-space: nowrap;
+  text-align: center;
+}
+.cards {
+  margin-top: 20px;
+  background-color: rgba(255,255,255,0.8);
+  width: 400px;
+  height: auto;
+  display: inline-block;
+  vertical-align: top;
+  white-space: initial;
+  text-align: center;
+  padding: 10px;
+
+}
+.cards ul {
+  padding: 0;
+  vertical-align: center;
+}
+.text-centre {
+  text-align: center;
+}
+.cards img {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border-radius: 10px;
+}
+.cards p {
+  display: inline-block;
+  padding: 5px;
+}
