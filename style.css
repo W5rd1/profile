@@ -22,7 +22,7 @@ ul {
 }
 .card {
   background-color: rgba(255,255,255,0.8);
-  width: 750px;
+  width: 699px;
   margin: 15px auto;
   border-radius: 5px;
   padding: 10px ;
@@ -83,26 +83,27 @@ a {
   color: rgb(138, 58, 185);
 }
 .projects {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 100px; /* Set the width of the sidebar */
+    width: 40px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
-    left: 0;
+    right: 0;
     background-color: rgba(255,255,255,0.7); /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 100px;
     margin: 10px auto;
     border-radius: 5px;
     color: white;
     text-align: center;
-    font-size: 14px;
+    font-size: 20px;
     border: 1px 1px rgba(20,20,20,0.1)
+
 }
-.projects img {
-  height: 70px;
-  width: 80%;
-  padding-bottom: 80px;
+.projects a {
+  color: black;
+  margin:10px;
+}
+.projects a:hover {
+  color: rgb(110,110,110,0.8);
 }
 
 .red_button {
@@ -135,7 +136,7 @@ a {
 .cards {
   margin-top: 20px;
   background-color: rgba(255,255,255,0.8);
-  width: 400px;
+  width: 233px;
   height: auto;
   display: inline-block;
   vertical-align: top;
