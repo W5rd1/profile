@@ -105,22 +105,6 @@ a {
   padding-bottom: 80px;
 }
 
-.projects:hover {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 150px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color: rgba(255,255,255,0.7); /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 50px;
-  margin: 10px auto;
-  border-radius: 5px;
-  color: white;
-  text-align: center;
-  font-size: 14px;
-}
 .red_button {
   width: 150px;
   height: 40px;
@@ -176,4 +160,7 @@ a {
 .cards p {
   display: inline-block;
   padding: 5px;
+}
+.logo-bg:hover {
+  background-color: black;
 }
